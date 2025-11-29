@@ -5,5 +5,18 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
 
 
-need to install pakeage like Vuetify Aos for  install run  npm i 
-then  run project with npm  run dev
+Clone the project: git clone <project-url> and cd <project-folder>
+
+Install dependencies: npm install
+
+Install required packages (Vuetify for UI, AOS for animations, Pinia for state management)
+
+Run the project locally: npm run dev
+
+Open in browser (usually at http://localhost:5173)
+
+Project structure: views/ for pages, components/ for reusable components, store/ for Pinia state
+
+Manage theme using themeStore to toggle Dark/Light modes
+
+Add new packages if needed: npm install <package-name> and import them in components
